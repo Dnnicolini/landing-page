@@ -1,0 +1,19 @@
+{
+    "menu": {
+        "home": "Ínicio",
+        "about": "Sobre Mim",
+        "contact": "Contato",
+        "skills": "Habilidades",
+        "projects": "Projetos"
+    },
+    "message": {
+        "hello": "Olá!",
+        "iamthe": "Me chamo",
+        "andiam": "e sou",
+        "software_developer": "Desenvolvedora de Sistemas",
+        "welcome": "Bem-vindo ao nosso site!"
+    },
+    "button": {
+        "submit": "Enviar"
+    }
+}

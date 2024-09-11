@@ -1,0 +1,19 @@
+{
+    "menu": {
+        "home": "Home",
+        "about": "About Me",
+        "contact": "Contact",
+        "skills": "Skills",
+        "projects": "Projects"
+    },
+    "message": {
+        "hello": "Hello!",
+        "iamthe": "My name is",
+        "andiam": "and I am a",
+        "software_developer": "Software Developer",
+        "welcome": "Welcome to our website!"
+    },
+    "button": {
+        "submit": "Submit"
+    }
+}

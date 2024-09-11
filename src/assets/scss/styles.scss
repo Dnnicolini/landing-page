@@ -1,0 +1,89 @@
+@import "bootstrap/scss/bootstrap";
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, rgba(2, 0, 36, 1) 3%, rgba(3, 3, 58, 1) 38%, rgba(9, 9, 121, 1) 65%, rgba(0, 121, 255, 1) 100%) no-repeat center center fixed;
+}
+
+.navbar {
+    padding: 20px;
+}
+
+.navlink {
+    font-weight: 700;
+    color: #fff;
+    padding: 0px !important;
+    margin-right: 15px;
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
+
+    &:hover {
+        color: #fff;
+        border-bottom: 3px solid #0079ff
+    }
+
+    &.active {
+        color: #d0e1ee !important;
+
+        border-bottom: 3px solid #0079ff
+    }
+}
+
+
+
+.lang-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+
+
+    &:hover {
+        cursor: pointer;
+    }
+
+}
+
+section {
+    min-height: 65vh;
+    align-items: center;
+}
+
+.text-name {
+    color: #0077ff;
+    font-weight: 700;
+    font-size: 50px;
+
+}
+
+.text-initial {
+    color: #d0e1ee;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.text-dev {
+    color: #090979;
+    font-weight: 700;
+    font-size: 50px;
+    text-shadow:
+        -1px -1px 0 #0079ff,
+        1px -1px 0 #0079ff,
+        -1px 1px 0 #0079ff,
+        1px 1px 0 #0079ff,
+        0px 0px 7px #0079ff;
+    /* Cor do contorno */
+}
+
+// .code-img {
+//     width: 400px;
+// }
+
+.text-about {
+    color: #fff;
+    font-weight: 500;
+}
