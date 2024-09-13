@@ -11,7 +11,7 @@
         "iamthe": "My name is",
         "andiam": "and I am a",
         "software_developer": "Software Developer",
-        "welcome": "Welcome to our website!"
+        "about": "I am a Full-Stack Developer with a solid foundation in PHP and Laravel. I am proficient in front-end development using React, Vue, and Tailwind CSS, creating modern and responsive user interfaces. I have in-depth knowledge of databases (MySQL, MariaDB, SQL Server) and am skilled in Windows Server and Linux environments. Experienced in containerization with Docker and version control with Git."
     },
     "button": {
         "submit": "Submit"

@@ -16,7 +16,7 @@
 </section>
 <section id="about" class="container d-flex justify-content-between align-items-center">
   <div>
-    <img src="../assets/images/web-development.png"  alt="skills image">
+    <img src="../assets/images/pc-dev.png" class="img-about"  alt="pc image">
 
   </div>
 <div>
