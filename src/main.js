@@ -4,6 +4,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import * as bootstrap from 'bootstrap'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 import './assets/scss/styles.scss'
 import { createI18n } from 'vue-i18n';
 import pt from './assets/locales/pt.json';

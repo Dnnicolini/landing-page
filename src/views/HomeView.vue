@@ -5,23 +5,28 @@
   <main>
     <section id="initial" class="container d-flex justify-content-between align-items-center">
       <div>
-        <h1 class="text-initial">{{ $t('message.hello') }}</h1>
-        <h2 class="text-name">{{ $t('message.iamthe') }} Daniele Nicolini</h2>
-        <h2 class="text-initial"> {{ $t('message.andiam') }} <span class="text-dev"> {{ $t('message.software_developer')
-        }} </span></h2>
+        <h1 class="text-initial">{{ $t('message.iamthe') }} <span class="text-name">Daniele Nicolini</span></h1>
+        <h4 class="text-initial">Desenvolvedora Fullstack</h4>
 
       </div>
-      <div>
-        <img src="../assets/images/code.png" class="img-fluid" alt="initial image">
+      <div class="d-flex justify-content-center align-items-center">
+        <img src="../assets/images/daniele-nicolini.png" class="img-fluid dn-img me-3 "  alt="daniele nicolini image">
+         <div class="d-grid gap-2 justify-items-center">
+        <a href="https://www.linkedin.com/in/daniele-nicolini" target="_blank" class="social-icon"><i class="bi  bi-linkedin"></i></a>
+        <a href="https://github.com/dnnicolini" target="_blank" class="social-icon"><i class="bi bi-github"></i></a>        
+        <a href="https://wa.me/5569992814769" target="_blank" class="social-icon"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.instagram.com/dnnicolini/" target="_blank" class="social-icon"><i class="bi bi-instagram"></i></a>
       </div>
+      </div>
+     
+
     </section>
-    <section id="about" class="container d-flex justify-content-between align-items-center">
-      <div>
-        <img src="../assets/images/pc-dev.png" class="img-about" alt="pc image">
+              <hr class="line" />
 
-      </div>
+    <section id="about" class="container align-content-center justify-content-center">
+<h2 class="title-about ">Sobre Mim</h2>
       <div>
-        <h1 class="text-about">{{ $t('message.about') }}</h1>
+        <h4 class="text-about">{{ $t('message.about') }}</h4>
       </div>
     </section>
     <section id="habilities" class="container ">

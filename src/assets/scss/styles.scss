@@ -1,12 +1,20 @@
 @import "bootstrap/scss/bootstrap";
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'montserrat', sans-serif;
 }
 
 body {
-    background: linear-gradient(45deg, rgba(2, 0, 36, 1) 3%, rgba(3, 3, 58, 1) 38%, rgba(9, 9, 121, 1) 65%, rgba(0, 121, 255, 1) 100%) no-repeat center center fixed;
+    background: #333333;
+    // border: 2px solid #d33649;
 }
+
+
+section {
+    min-height: 70vh;
+    align-items: center;
+}
+
 
 .navbar {
     padding: 20px;
@@ -14,22 +22,53 @@ body {
 
 .navlink {
     font-weight: 700;
-    color: #fff;
+    color: #e8e8e8;
     padding: 0px !important;
     margin-right: 15px;
     border-bottom: 3px solid transparent;
     text-decoration: none;
 
     &:hover {
-        color: #fff;
-        border-bottom: 3px solid #0079ff
+        color: #f6f6f6;
+        border-bottom: 3px solid #990100
     }
 
     &.active {
-        color: #d0e1ee !important;
+        color: #f6f6f6 !important;
 
-        border-bottom: 3px solid #0079ff
+        border-bottom: 3px solid #990100
     }
+}
+
+.dn-img{
+    width: 500px;
+    border: 1px solid #f6f6f6;
+    border-radius: 10px;
+}
+.social-icon{
+    text-decoration: none;
+    color:#f6f6f6;
+    font-size: 30px;
+  
+
+    &:hover{
+        color: #f6f6f6;
+        border-bottom: 3px solid #990100
+        }
+}
+.v-line{
+    border-left: 1px solid #990100;
+    height: 100px;
+}
+.line{
+    background: linear-gradient(125deg, rgba(211,54,73,1) 34%, rgba(153,1,0,1) 63%); 
+  padding: 10px;
+
+}
+
+.title-about {
+    color: #d33649;
+    font-weight: 700;
 }
 
 
@@ -48,13 +87,8 @@ body {
 
 }
 
-section {
-    min-height: 65vh;
-    align-items: center;
-}
-
 .text-name {
-    color: #0077ff;
+    color: #d33649;
     font-weight: 700;
     font-size: 50px;
 
@@ -63,20 +97,12 @@ section {
 .text-initial {
     color: #d0e1ee;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
 }
 
-.text-dev {
-    color: #090979;
-    font-weight: 700;
-    font-size: 50px;
-    text-shadow:
-        -1px -1px 0 #0079ff,
-        1px -1px 0 #0079ff,
-        -1px 1px 0 #0079ff,
-        1px 1px 0 #0079ff,
-        0px 0px 7px #0079ff;
-    /* Cor do contorno */
+#about{
+    background: rgb(211,54,73);
+    background: linear-gradient(125deg, rgba(211,54,73,1) 3%, rgba(164,11,14,1) 13%, rgba(153,1,0,1) 22%, rgba(109,22,22,1) 30%, rgba(51,51,51,1) 48%); 
 }
 
 .img-about {
@@ -87,7 +113,6 @@ section {
 .text-about {
     color: #fff;
     font-weight: 500;
-    font-size: 24px;
     text-align: justify;
 
 }
