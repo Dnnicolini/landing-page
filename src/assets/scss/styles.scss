@@ -40,29 +40,32 @@ section {
     }
 }
 
-.dn-img{
+.dn-img {
     width: 500px;
     border: 1px solid #f6f6f6;
     border-radius: 10px;
 }
-.social-icon{
-    text-decoration: none;
-    color:#f6f6f6;
-    font-size: 30px;
-  
 
-    &:hover{
+.social-icon {
+    text-decoration: none;
+    color: #f6f6f6;
+    font-size: 30px;
+
+
+    &:hover {
         color: #f6f6f6;
         border-bottom: 3px solid #990100
-        }
+    }
 }
-.v-line{
+
+.v-line {
     border-left: 1px solid #990100;
     height: 100px;
 }
-.line{
-    background: linear-gradient(125deg, rgba(211,54,73,1) 34%, rgba(153,1,0,1) 63%); 
-  padding: 10px;
+
+.line {
+    background: linear-gradient(125deg, rgba(211, 54, 73, 1) 34%, rgba(153, 1, 0, 1) 63%);
+    padding: 10px;
 
 }
 
@@ -100,9 +103,16 @@ section {
     font-size: 30px;
 }
 
-#about{
-    background: rgb(211,54,73);
-    background: linear-gradient(125deg, rgba(211,54,73,1) 3%, rgba(164,11,14,1) 13%, rgba(153,1,0,1) 22%, rgba(109,22,22,1) 30%, rgba(51,51,51,1) 48%); 
+// #about{
+//     background: rgb(211,54,73);
+//     background: linear-gradient(125deg, rgba(211,54,73,1) 3%, rgba(164,11,14,1) 13%, rgba(153,1,0,1) 22%, rgba(109,22,22,1) 30%, rgba(51,51,51,1) 48%); 
+// }
+
+.progress-bar {
+    background: linear-gradient(125deg, rgba(211, 54, 73, 1) 34%, rgba(153, 1, 0, 1) 63%);
+    border: 1px thick #990100;
+
+
 }
 
 .img-about {
