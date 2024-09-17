@@ -11,6 +11,7 @@
           {{ $t("message.iamthe") }} <span class="text-name">Daniele Nicolini</span>
         </h1>
         <h4 class="text-initial">Desenvolvedora Fullstack</h4>
+        <h4 class="text-initial">EM DESENVOLVIMENTO </h4>
       </div>
       <div class="d-flex justify-content-center align-items-center">
         <img
