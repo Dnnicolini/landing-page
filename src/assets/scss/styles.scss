@@ -6,10 +6,18 @@
 
 body {
     background: #333333;
+    background-image: url('/src/assets/images/background.jpg');
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    backdrop-filter:blur(15px) brightness(110%);
+
+    // background-size: cover;
     // border: 2px solid #d33649;
 }
 
-
+#initial {
+    padding:10vh 10vw;
+}
 section {
     min-height: 70vh;
     align-items: center;
@@ -49,8 +57,7 @@ section {
 .social-icon {
     text-decoration: none;
     color: #f6f6f6;
-    font-size: 30px;
-
+    font-size: 22px;
 
     &:hover {
         color: #f6f6f6;
@@ -58,16 +65,7 @@ section {
     }
 }
 
-.v-line {
-    border-left: 1px solid #990100;
-    height: 100px;
-}
 
-.line {
-    background: linear-gradient(125deg, rgba(211, 54, 73, 1) 34%, rgba(153, 1, 0, 1) 63%);
-    padding: 10px;
-
-}
 
 .title-about {
     color: #d33649;
@@ -98,22 +96,12 @@ section {
 }
 
 .text-initial {
-    color: #d0e1ee;
+    color: #fffcfc;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 60px;
 }
 
-// #about{
-//     background: rgb(211,54,73);
-//     background: linear-gradient(125deg, rgba(211,54,73,1) 3%, rgba(164,11,14,1) 13%, rgba(153,1,0,1) 22%, rgba(109,22,22,1) 30%, rgba(51,51,51,1) 48%); 
-// }
 
-.progress-bar {
-    background: linear-gradient(125deg, rgba(211, 54, 73, 1) 34%, rgba(153, 1, 0, 1) 63%);
-    border: 1px thick #990100;
-
-
-}
 
 .img-about {
     width: 500px;
@@ -126,3 +114,19 @@ section {
     text-align: justify;
 
 }
+
+.icon-habilities {
+    width: 150px;
+    margin-right: 20px;
+    
+
+}
+
+.fade-left-enter-active, .fade-left-leave-active {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+  
+  .fade-left-enter, .fade-left-leave-to {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
